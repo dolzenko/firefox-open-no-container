@@ -1,0 +1,44 @@
+{
+  "manifest_version": 2,
+  "name": "Open in No Container",
+  "version": "1.3.1",
+  "description": "Opens pages, links, and configured sites in regular Firefox tabs without a container.",
+  "permissions": [
+    "activeTab",
+    "cookies",
+    "menus",
+    "storage",
+    "tabs",
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": [
+      "no-container-sites.js",
+      "background.js"
+    ]
+  },
+  "browser_action": {
+    "default_icon": "icon.svg",
+    "default_title": "Open in No Container"
+  },
+  "options_ui": {
+    "page": "options.html",
+    "browser_style": true
+  },
+  "icons": {
+    "48": "icon.svg",
+    "96": "icon.svg"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "open-no-container@local",
+      "data_collection_permissions": {
+        "required": [
+          "none"
+        ]
+      }
+    }
+  }
+}

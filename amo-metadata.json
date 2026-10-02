@@ -1,0 +1,29 @@
+{
+  "name": {
+    "en-US": "Open in No Container"
+  },
+  "summary": {
+    "en-US": "Open selected sites in regular Firefox tabs outside containers."
+  },
+  "description": {
+    "en-US": "Automatically move sites you choose out of Firefox containers before their first GET request is sent. The default rules include all .ru sites. You can also open any page or link without a container from the toolbar or context menu. Rules are stored locally and can be edited in the extension's options."
+  },
+  "categories": {
+    "firefox": [
+      "tabs",
+      "privacy-security"
+    ]
+  },
+  "homepage": {
+    "en-US": "https://github.com/dolzenko/firefox-open-no-container"
+  },
+  "support_url": {
+    "en-US": "https://github.com/dolzenko/firefox-open-no-container/issues"
+  },
+  "version": {
+    "license": "MIT",
+    "release_notes": {
+      "en-US": "Intercept matching navigations before their first request. Keep default rules active when custom rules change."
+    }
+  }
+}

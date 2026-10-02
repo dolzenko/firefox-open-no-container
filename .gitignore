@@ -1,0 +1,5 @@
+.amo-upload-uuid
+.web-extension-id
+web-ext-artifacts/
+*.xpi
+*.zip
